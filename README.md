@@ -1,4 +1,33 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Structure
+Follows [standard Next.js project structure conventions] (https://nextjs.org/docs/app/getting-started/project-structure)
+```ini
+.
+├─ .next
+├─ .node_modules
+├─ public
+│  ├─ assets - Folder for icon and image files
+│  └─ pacp_codes.json - JSON representing PACP code structure
+├─ src
+│  ├─ app - App router
+│  │  ├─ jobs - All Jobs page
+│  │  ├─ observations - Observations page
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx - root layout for the project
+│  │  ├─ page.tsx - Landing page (Job Data page)
+│  ├─ components - Files containing code for reusable components across the page
+│  ├─ contexts - Files that manage and share state or functions across components
+├─ .gitignore
+├─ next-env.d.ts
+├─ next.config.ts
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ README.md
+├─ tsconfig.json
+├─ tsconfig.tsbuildinfo
+```
 
 ## Getting Started
 
